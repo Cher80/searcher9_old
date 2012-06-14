@@ -12,7 +12,6 @@
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
 
   <!-- Other module inherits                                      -->
-  <inherits name='com.sencha.gxt.ui.GXT'/>
   <inherits name='at.wizzart.gwt.widgets.CodeMirror'/>
 
 

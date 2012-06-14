@@ -19,7 +19,6 @@ import com.google.gwt.user.client.ui.RootLayoutPanel;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.searcher9.client.login.LoginPlace;
 import com.searcher9.client.mainmenu.MainMenu;
-import com.sencha.gxt.widget.core.client.button.TextButton;
 
 
 /**
