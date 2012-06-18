@@ -1,0 +1,2 @@
+serviceClass: com.searcher9.client.rpcs.RPCSCommunicator
+path: C60EE85234F4C84CB0261F21CB3751C5.gwt.rpc

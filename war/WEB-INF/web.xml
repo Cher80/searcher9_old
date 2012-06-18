@@ -5,7 +5,18 @@
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
 
+  
   <!-- Servlets -->
+  <servlet>
+    <servlet-name>RPCSControllerImpl</servlet-name>
+    <servlet-class>com.searcher9.server.RPCSControllerImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RPCSControllerImpl</servlet-name>
+    <url-pattern>searcher9/communicator</url-pattern>
+  </servlet-mapping>
+  
   
   <!-- Default page to serve -->
   <welcome-file-list>
