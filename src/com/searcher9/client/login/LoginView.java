@@ -13,6 +13,7 @@ import com.google.gwt.user.client.ui.SimplePanel;
 import com.searcher9.client.ClientFactory;
 import com.searcher9.client.rpcs.RPCSCommunicator;
 import com.searcher9.client.rpcs.RPCSCommunicatorAsync;
+import com.searcher9.shared.ResponseHolder;
 import com.searcher9.shared.User;
 
 public class LoginView extends Composite  {
@@ -34,13 +35,13 @@ public class LoginView extends Composite  {
 					RPCSCommunicatorAsync communicatorSvc = GWT.create(RPCSCommunicator.class);
 
 					// Set up the callback object.
-				    AsyncCallback<User> callback = new AsyncCallback<User>() {
+				    AsyncCallback<ResponseHolder> callback = new AsyncCallback<ResponseHolder>() {
 				    	public void onFailure(Throwable caught) {
 		    					// TODO: Do something with errors.
 				    		}
 
 				    	@Override
-				    	public void onSuccess(User result) {
+				    	public void onSuccess(ResponseHolder result) {
 				    		// TODO Auto-generated method stub
 				    	}
 				    };
