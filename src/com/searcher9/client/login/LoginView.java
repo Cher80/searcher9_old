@@ -20,6 +20,7 @@ import com.searcher9.shared.User;
 public class LoginView extends Composite  {
 	//git_tests1	
 	//test new repo old
+	//Ololo
 	
 		FlowPanel viewPanel = new FlowPanel();
 	    Element nameSpan = DOM.createSpan();
