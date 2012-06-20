@@ -22,6 +22,7 @@ public class LoginView extends Composite  {
 	//test new repo old
 	//Ololo
 	 //First New in master from developer 2
+	//First from Dev one
 	//git_tests2
 		FlowPanel viewPanel = new FlowPanel();
 	    Element nameSpan = DOM.createSpan();
@@ -32,7 +33,7 @@ public class LoginView extends Composite  {
 	        //FlowPanel panel = new FlowPanel();
 	        //One more git_tests2
 	        //Second New in master from developer 2
-			
+	      //Second from Dev one
 			Button myButt1 = new Button("Login");
 			viewPanel.add(myButt1);
 			
