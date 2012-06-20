@@ -19,7 +19,7 @@ import com.searcher9.shared.User;
 
 public class LoginView extends Composite  {
 		//test new repo old
-	
+	//git_tests2
 		FlowPanel viewPanel = new FlowPanel();
 	    Element nameSpan = DOM.createSpan();
 
